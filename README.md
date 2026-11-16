@@ -36,7 +36,7 @@ Maestro flows, 28 files per language with the same names. The `*-strip` files
 are stitched scroll captures; their height follows the content, so each
 language's `more-details.html` carries its own `--end` (and tap-dot positions
 where a layout differs): Norwegian `health-strip` is 1830 px and `labs-strip`
-4353 px tall, and the Norwegian launcher shows a "Venter på deg" row that moves
+4340 px tall, and the Norwegian launcher shows a "Venter på deg" row that moves
 its tiles up. A step on
 `/more-details` stacks the screen you come from under the screen it shows,
 taps, then lets the tray rise or the tab crossfade; printing drops the layers
@@ -79,9 +79,10 @@ gradient. Light and dark follow the visitor's system setting.
 
 ## Before launch
 
-- [ ] Complete `public/privacy.html` and `public/terms.html` (served as `/privacy` and `/terms`). Every orange
-      "To be completed" marker is a decision for the owner, not filler.
-- [ ] Add a support e-mail address in `public/support.html`, `public/sr/support.html` and `public/no/support.html`.
+- [ ] Complete `public/privacy.html` and `public/terms.html` (served as `/privacy` and `/terms`). Every grey
+      italic "To be added before release" line (class `pending`) is a decision for the owner, not filler.
+- [ ] Add a support e-mail address in `public/support.html`, `public/sr/support.html` and `public/no/support.html`
+      (each says one will be published at launch).
 - [ ] Translate the privacy policy and terms into Serbian and Norwegian once the English text is final.
 - [ ] Remove `X-Robots-Tag: noindex` from `public/_headers`, open up
       `public/robots.txt`, and drop the `noindex` meta tags from the legal pages.

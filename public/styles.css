@@ -405,6 +405,7 @@ section.block { padding: 96px 0; }
 .draft { border-radius: var(--radius-sm); padding: 14px 16px; background: var(--warn-subtle); border: 1px solid color-mix(in srgb, var(--warn) 30%, transparent); font-size: 15px; }
 .draft strong { font-weight: 600; }
 .todo { color: var(--warn); font-weight: 500; }
+.pending { color: var(--muted); font-style: italic; }
 
 /* ── Footer ─────────────────────────────────────────────── */
 
