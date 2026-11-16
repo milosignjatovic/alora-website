@@ -77,7 +77,9 @@
               <li><a href="#stool">Logg avføring, raskt og diskret</a></li>
               <li><a href="#symptom">Sett ord på det du kjenner</a></li>
               <li><a href="#meal">Måltider, med bilde eller for hånd</a></li>
+              <li><a href="#scan">Ta bilde av tallerkenen, få ingrediensene</a></li>
               <li><a href="#checkin">Den daglige innsjekken</a></li>
+              <li><a href="#labscan">Prøvesvar, lest fra et bilde</a></li>
             </ol></li>
             <li><span class="ch">Forstå dagene dine</span><ol>
               <li><a href="#insights">Hva Alora har lagt merke til</a></li>
@@ -120,7 +122,7 @@
                 <ul><li>Trykk på en dag i stripen for å se tilbake.</li><li>Ringen rundt skåren viser hvor mange signaler den allerede har.</li><li>Hver oppføring på tidslinjen kan åpnes for en rask endring.</li></ul>
               </div>
             </section>
-            <section class="step" id="launcher" aria-labelledby="launcher-title" data-kind="sheet">
+            <section class="step" id="launcher" aria-labelledby="launcher-title" data-kind="sheet" style="--sheet-top: 27%">
               <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/no/home.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/no/launcher.webp" alt="Logg hva som helst med to trykk: Hjem → A-knappen" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="bar" src="/assets/screens/no/launcher.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><span class="tap" style="left: 50%; top: 92%"></span></div></div></div>
               <div class="copy">
                 <p class="where"><span class="step-num">02</span>Hjem → A-knappen</p>
@@ -157,13 +159,33 @@
                 <ul><li>Skann et måltid og la kameraet lese tallerkenen.</li><li>Velg fra en matvarekatalog laget for landet ditt.</li><li>Noen få ord holder på en travel dag.</li></ul>
               </div>
             </section>
+            <section class="step" id="scan" aria-labelledby="scan-title" data-kind="scan">
+              <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/no/meal.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/no/meal-added.webp" alt="Ta bilde av tallerkenen, få ingrediensene: Launcheren → Måltid → Skann et måltid" width="603" height="1311" loading="lazy" decoding="async" /></div><div class="scan-layer" aria-hidden="true"><div class="cam"><img class="photo" src="/assets/screens/plate-photo.webp" alt="" width="603" height="804" loading="lazy" decoding="async" /><span class="beam"></span><span class="corners"></span><span class="shutter"></span></div><img class="s1" src="/assets/screens/no/scan-result.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><img class="s2" src="/assets/screens/no/meal-added.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /></div><span class="tap" style="left: 50%; top: 46%"></span><span class="tap t2" style="left: 50%; top: 72%"></span></div></div></div>
+              <div class="copy">
+                <p class="where"><span class="step-num">06</span>Launcheren → Måltid → Skann et måltid</p>
+                <h3 id="scan-title">Ta bilde av tallerkenen, få ingrediensene</h3>
+                <p>Ta et bilde av måltidet, så kjenner Alora igjen det som ligger på tallerkenen. Se over listen, slå av det som ikke stemmer, og legg alt til i måltidet med ett trykk.</p>
+                <ul><li>Hver ingrediens kan endres eller slås av før du lagrer.</li><li>Legg til opptil fem bilder for et større måltid.</li><li>Bildet sendes til en KI-tjeneste for å bli lest; Alora lagrer det ikke.</li></ul>
+                <p class="tip"><strong>Tips</strong> Tallerkenen her er en illustrasjon. Ingredienslisten er det appen leste ut av den.</p>
+              </div>
+            </section>
             <section class="step" id="checkin" aria-labelledby="checkin-title" data-kind="tray">
               <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/no/launcher.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/no/checkin.webp" alt="Den daglige innsjekken: Launcheren → Innsjekk" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="bar" src="/assets/screens/no/checkin.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><span class="tap" style="left: 16%; top: 46.5%"></span></div></div></div>
               <div class="copy">
-                <p class="where"><span class="step-num">06</span>Launcheren → Innsjekk</p>
+                <p class="where"><span class="step-num">07</span>Launcheren → Innsjekk</p>
                 <h3 id="checkin-title">Den daglige innsjekken</h3>
                 <p>Én gang om dagen sier du hvordan du har det: velvære, smerte, tretthet, feber, søvn. Alora fyller ut på forhånd med standardverdiene dine, så de fleste dager holder det å bekrefte.</p>
                 <ul><li>Glidebrytere for smerte, tretthet og søvn.</li><li>Forhåndsutfylt med hvordan en vanlig dag kjennes for deg.</li><li>Den går inn i den kliniske delen av Alora-skåren din.</li></ul>
+              </div>
+            </section>
+            <section class="step" id="labscan" aria-labelledby="labscan-title" data-kind="scan">
+              <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/no/lab-empty.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/no/lab-read.webp" alt="Prøvesvar, lest fra et bilde: Launcheren → Laboratorium" width="603" height="1311" loading="lazy" decoding="async" /></div><div class="scan-layer" aria-hidden="true"><div class="cam"><img class="photo" src="/assets/screens/no/lab-photo.webp" alt="" width="603" height="804" loading="lazy" decoding="async" /><span class="beam"></span><span class="corners"></span><span class="shutter"></span></div><img class="s1" src="/assets/screens/no/lab-attached.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><img class="s2" src="/assets/screens/no/lab-read.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /></div><span class="tap" style="left: 18%; top: 29%"></span><span class="tap t2" style="left: 50%; top: 43%"></span></div></div></div>
+              <div class="copy">
+                <p class="where"><span class="step-num">08</span>Launcheren → Laboratorium</p>
+                <h3 id="labscan-title">Prøvesvar, lest fra et bilde</h3>
+                <p>Ta et bilde av prøvesvaret, eller velg et bilde eller en PDF, så fyller Alora verdiene inn i de riktige feltene. Det skjer på telefonen din. Du ser over og lagrer.</p>
+                <ul><li>Hver verdi Alora har lest, er merket, så du vet hva du bør sjekke.</li><li>Blodtelling, biokjemi, avføringsprøver og andre paneler.</li><li>Prøvesvaret blir liggende som vedlegg til oppføringen.</li></ul>
+                <p class="tip"><strong>Tips</strong> Prøvesvaret her er et eksempel laget for denne omvisningen.</p>
               </div>
             </section>
           </div>
@@ -176,7 +198,7 @@
             <section class="step" id="insights" aria-labelledby="insights-title" data-kind="tab">
               <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/no/home.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/no/insights.webp" alt="Hva Alora har lagt merke til: Innsikt-fanen" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="bar" src="/assets/screens/no/insights.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><span class="tap" style="left: 30%; top: 94%"></span></div></div></div>
               <div class="copy">
-                <p class="where"><span class="step-num">07</span>Innsikt-fanen</p>
+                <p class="where"><span class="step-num">09</span>Innsikt-fanen</p>
                 <h3 id="insights-title">Hva Alora har lagt merke til</h3>
                 <p>Alora leter i oppføringene dine etter mønstre det er verdt å kjenne til, og viser hvert av dem som et kort, med hvor ofte det skjedde og hva som fulgte med.</p>
                 <ul><li>Hvert kort viser dagene bak mønsteret.</li><li>Beslektede mønstre ligger samlet under hovedmønsteret.</li><li>Noen kort foreslår at du nevner det ved neste time.</li></ul>
@@ -186,7 +208,7 @@
             <section class="step" id="analyze" aria-labelledby="analyze-title" data-kind="tab">
               <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/no/insights.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/no/analyze.webp" alt="Dagene dine, side om side: Innsikt → Analyser" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="bar" src="/assets/screens/no/analyze.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><span class="tap" style="left: 50%; top: 25%"></span></div></div></div>
               <div class="copy">
-                <p class="where"><span class="step-num">08</span>Innsikt → Analyser</p>
+                <p class="where"><span class="step-num">10</span>Innsikt → Analyser</p>
                 <h3 id="analyze-title">Dagene dine, side om side</h3>
                 <p>Analyser sammenligner de siste dagene dine med ditt vanlige mønster: hvor mange som var nærmere, på linje med eller lenger fra det, hvordan de kjentes, og hvordan Alora-skåren din utviklet seg.</p>
                 <ul><li>Perioder fra én uke til seks måneder.</li><li>Ditt vanlige mønster tegnet ved siden av skåren.</li><li>Forstoppelse og andre episoder markert i diagrammet.</li></ul>
@@ -195,7 +217,7 @@
             <section class="step" id="labs" aria-labelledby="labs-title" data-kind="scroll">
               <div class="shot"><div class="phone"><div class="screen-stack"><div class="win"><img class="top" src="/assets/screens/no/labs.webp" alt="Prøvesvar over tid: Innsikt → Analyser, lenger ned" width="603" height="1311" loading="lazy" decoding="async" /></div><div class="scroll-layer" style="--end: -75.645%; --start: 0.8s; --stick-at: 2.02s; --pin: 13%"><div class="sw"><img class="strip" src="/assets/screens/no/labs-strip.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="cap" src="/assets/screens/no/analyze.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><img class="pin" src="/assets/screens/no/labs.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><img class="dock" src="/assets/screens/no/labs.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /></div></div></div></div>
               <div class="copy">
-                <p class="where"><span class="step-num">09</span>Innsikt → Analyser, lenger ned</p>
+                <p class="where"><span class="step-num">11</span>Innsikt → Analyser, lenger ned</p>
                 <h3 id="labs-title">Prøvesvar over tid</h3>
                 <p>Kalprotektin, CRP, ferritin og vitamin D på én tidslinje, med referanseområdet skyggelagt og de biologiske dosene markert, så du ser hva som endret seg etter en dose.</p>
                 <ul><li>Verdiene hentes fra et bilde av prøvesvaret ditt.</li><li>Normal, grenseverdi og høy, synlig med ett blikk.</li><li>Med bare én måling sier Alora fra om at du bør logge én til.</li></ul>
@@ -204,7 +226,7 @@
             <section class="step" id="explore" aria-labelledby="explore-title" data-kind="tab">
               <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/no/insights.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/no/explore.webp" alt="Ny forskning, valgt ut for deg: Innsikt → Utforsk" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="bar" src="/assets/screens/no/explore.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><span class="tap" style="left: 80%; top: 25%"></span></div></div></div>
               <div class="copy">
-                <p class="where"><span class="step-num">10</span>Innsikt → Utforsk</p>
+                <p class="where"><span class="step-num">12</span>Innsikt → Utforsk</p>
                 <h3 id="explore-title">Ny forskning, valgt ut for deg</h3>
                 <p>Hver dag velger Alora artikler om å leve med IBD fra pålitelige kilder, fra retningslinjer til livsstil, så du kan følge med og ta med spørsmål til legen.</p>
                 <ul><li>Filtrer på retningslinjer, ingredienser eller livsstil.</li><li>Offisielle kilder er merket.</li><li>Hver artikkel lenker til kilden.</li></ul>
@@ -220,7 +242,7 @@
             <section class="step" id="health" aria-labelledby="health-title" data-kind="scroll">
               <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/no/home.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/no/health.webp" alt="Alt om tilstanden din: Helse-fanen" width="603" height="1311" loading="lazy" decoding="async" /></div><div class="scroll-layer" style="--end: -42.24%; --start: 1.8s"><div class="sw"><img class="strip" src="/assets/screens/no/health-strip.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="cap" src="/assets/screens/no/health.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><img class="dock" src="/assets/screens/no/health-end.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /></div><span class="tap" style="left: 70%; top: 94%"></span></div></div></div>
               <div class="copy">
-                <p class="where"><span class="step-num">11</span>Helse-fanen</p>
+                <p class="where"><span class="step-num">13</span>Helse-fanen</p>
                 <h3 id="health-title">Alt om tilstanden din</h3>
                 <p>Helse-fanen samler det som ikke endrer seg hver dag: diagnosen, sykehistorien, livsfasen, standardverdiene, behandlingen og dokumentene dine.</p>
                 <ul><li>Hver rad viser hva som allerede er registrert.</li><li>Demoplaner er merket, så du vet hva du skal bytte ut.</li><li>«Kan ikke vente»-kortet finner du også her.</li></ul>
@@ -229,7 +251,7 @@
             <section class="step" id="history" aria-labelledby="history-title" data-kind="tray">
               <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/no/health.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/no/history.webp" alt="Sykehistorien din: Helse → Sykehistorie" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="bar" src="/assets/screens/no/history.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><span class="tap" style="left: 50%; top: 40%"></span></div></div></div>
               <div class="copy">
-                <p class="where"><span class="step-num">12</span>Helse → Sykehistorie</p>
+                <p class="where"><span class="step-num">14</span>Helse → Sykehistorie</p>
                 <h3 id="history-title">Sykehistorien din</h3>
                 <p>Allergier, tidligere behandlinger, operasjoner, sykehusopphold, andre tilstander og komplikasjoner, hver med sin egen legg til-knapp. Alt kommer med i legerapporten.</p>
                 <ul><li>Tidligere behandlinger tar vare på datoene og hvorfor de ble avsluttet.</li><li>Komplikasjoner får med sted, status og behandling.</li><li>Risikofaktorer som røyking har sitt eget kort.</li></ul>
@@ -238,16 +260,16 @@
             <section class="step" id="therapy" aria-labelledby="therapy-title" data-kind="tray">
               <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/no/health.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/no/therapy.webp" alt="Behandlingen og timeplanen din: Helse → Behandling og timeplan" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="bar" src="/assets/screens/no/therapy.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><span class="tap" style="left: 50%; top: 83%"></span></div></div></div>
               <div class="copy">
-                <p class="where"><span class="step-num">13</span>Helse → Behandling og timeplan</p>
+                <p class="where"><span class="step-num">15</span>Helse → Behandling og timeplan</p>
                 <h3 id="therapy-title">Behandlingen og timeplanen din</h3>
                 <p>Legemidler, aktiviteter, prøver og prosedyrer i én timeplan, med i dag først. Alora minner deg på det og holder oversikt over hva som kommer.</p>
                 <ul><li>Filtrer på legemidler, prøver eller aktiviteter.</li><li>Hver plan viser tidspunktet og hvor ofte den gjentas.</li><li>Lageret viser hvor lenge du har nok.</li></ul>
               </div>
             </section>
             <section class="step" id="pillpal" aria-labelledby="pillpal-title" data-kind="tray">
-              <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/no/health.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/no/pillpal.webp" alt="Legemidler som ikke går tom: Helse → PillPal" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="bar" src="/assets/screens/no/pillpal.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><span class="tap" style="left: 50%; top: 87%"></span></div></div></div>
+              <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/no/health-end.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/no/pillpal.webp" alt="Legemidler som ikke går tom: Helse → PillPal" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="bar" src="/assets/screens/no/pillpal.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><span class="tap" style="left: 50%; top: 37%"></span></div></div></div>
               <div class="copy">
-                <p class="where"><span class="step-num">14</span>Helse → PillPal</p>
+                <p class="where"><span class="step-num">16</span>Helse → PillPal</p>
                 <h3 id="pillpal-title">Legemidler som ikke går tom</h3>
                 <p>PillPal teller hvor mye du har av hvert legemiddel og hvor lenge det varer, så du kan fylle på før du går tom.</p>
                 <ul><li>Dager igjen for hvert legemiddel.</li><li>Planer uten lager står for seg.</li><li>Legg til et legemiddel i ett steg.</li></ul>
@@ -263,7 +285,7 @@
             <section class="step" id="docs" aria-labelledby="docs-title" data-kind="still">
               <div class="shot"><div class="phone"><div class="screen-stack"><div class="win"><img class="top" src="/assets/screens/no/docs.webp" alt="Dokumentene dine: Helse → Mine dokumenter" width="603" height="1311" loading="lazy" decoding="async" /></div></div></div></div>
               <div class="copy">
-                <p class="where"><span class="step-num">15</span>Helse → Mine dokumenter</p>
+                <p class="where"><span class="step-num">17</span>Helse → Mine dokumenter</p>
                 <h3 id="docs-title">Dokumentene dine</h3>
                 <p>Legerapportene dine og alt du legger til med kameraet, fra bildene dine eller som fil, i én liste du kan dele fra.</p>
                 <ul><li>Legg til en skanning, et bilde eller en PDF.</li><li>Del et dokument rett fra raden.</li><li>Rapportene viser perioden de dekker.</li></ul>
@@ -272,7 +294,7 @@
             <section class="step" id="report" aria-labelledby="report-title" data-kind="tray" style="--sheet: 6.4%">
               <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/no/docs.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/no/report.webp" alt="En rapport til legen: Mine dokumenter → en rapport" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="bar" src="/assets/screens/no/report.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><span class="tap" style="left: 50%; top: 30%"></span></div></div></div>
               <div class="copy">
-                <p class="where"><span class="step-num">16</span>Mine dokumenter → en rapport</p>
+                <p class="where"><span class="step-num">18</span>Mine dokumenter → en rapport</p>
                 <h3 id="report-title">En rapport til legen</h3>
                 <p>Noen få sider med det viktigste siden forrige time: Alora-skåren, tarmtømminger, dager med symptomer, etterlevelse av behandlingen, sykehistorie og utviklingen i prøvesvarene.</p>
                 <ul><li>Send den som PDF, eller vis den på telefonen.</li><li>En lenke du deler, krypteres på telefonen din.</li><li>Lenken slutter å virke når du bestemmer det.</li></ul>
@@ -288,7 +310,7 @@
             <section class="step" id="card" aria-labelledby="card-title" data-kind="tray" style="--sheet: 6.4%">
               <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/no/launcher.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/no/card.webp" alt="«Kan ikke vente»-kortet: Launcheren → Kort" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="bar" src="/assets/screens/no/card.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><span class="tap" style="left: 38%; top: 46.5%"></span></div></div></div>
               <div class="copy">
-                <p class="where"><span class="step-num">17</span>Launcheren → Kort</p>
+                <p class="where"><span class="step-num">19</span>Launcheren → Kort</p>
                 <h3 id="card-title">«Kan ikke vente»-kortet</h3>
                 <p>Et kort som spør om å få låne et toalett, så du slipper å forklare. Vis det i fullskjerm, på språket i landet du er i.</p>
                 <ul><li>Virker uten nett.</li><li>Velg kortets språk.</li><li>Vis diagnosen din på kortet bare hvis du vil.</li></ul>
@@ -298,7 +320,7 @@
             <section class="step" id="toilets" aria-labelledby="toilets-title" data-kind="tray" style="--sheet: 8.4%">
               <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/no/card.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/no/toilets.webp" alt="Toaletter i nærheten: Kort → Finn et toalett" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="bar" src="/assets/screens/no/toilets.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><span class="tap" style="left: 50%; top: 86%"></span></div></div></div>
               <div class="copy">
-                <p class="where"><span class="step-num">18</span>Kort → Finn et toalett</p>
+                <p class="where"><span class="step-num">20</span>Kort → Finn et toalett</p>
                 <h3 id="toilets-title">Toaletter i nærheten</h3>
                 <p>De nærmeste toalettene rundt deg, med det hvert av dem tilbyr: gratis, tilgjengelig, kun for kunder, stellebord.</p>
                 <ul><li>Sortert etter avstand.</li><li>Mangler det et toalett? Legg det til.</li><li>Åpne hvilket som helst av dem i kartappen din.</li></ul>
@@ -314,7 +336,7 @@
             <section class="step" id="settings" aria-labelledby="settings-title" data-kind="tab">
               <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/no/home.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/no/settings.webp" alt="Innstillinger, slik du vil ha dem: Innstillinger-fanen" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="bar" src="/assets/screens/no/settings.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><img class="theme t0" src="/assets/screens/no/settings-soloppgang.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><img class="theme t1" src="/assets/screens/no/settings-nordlis.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><img class="theme t2" src="/assets/screens/no/settings-skoug.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><img class="theme t3" src="/assets/screens/no/settings-dark.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><span class="tap" style="left: 90%; top: 94%"></span></div></div></div>
               <div class="copy">
-                <p class="where"><span class="step-num">19</span>Innstillinger-fanen</p>
+                <p class="where"><span class="step-num">21</span>Innstillinger-fanen</p>
                 <h3 id="settings-title">Innstillinger, slik du vil ha dem</h3>
                 <p>Kontoen din, språk, utseende, varsler og integrasjoner. Demodata kan slettes i ett steg når du begynner å logge dine egne.</p>
                 <ul><li>Ti språk, blant dem norsk og svensk.</li><li>Lyst, mørkt eller automatisk utseende.</li><li>Velg hvilke vennlige påminnelser Alora sender.</li></ul>
