@@ -61,7 +61,7 @@ npm run dev        # http://localhost:8787
 ## Deploy
 
 ```sh
-npm run deploy     # https://www.alora.workers.dev
+npm run deploy     # https://alora-website.alora.workers.dev
 ```
 
 A custom domain can be added later to the same Worker in the Cloudflare

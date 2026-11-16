@@ -3,10 +3,10 @@
 // (web/report-viewer/wrangler.jsonc).
 //
 //   npm run dev      local preview on http://localhost:8787
-//   npm run deploy   publishes to https://www.alora.workers.dev
+//   npm run deploy   publishes to https://alora-website.alora.workers.dev
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "www",
+  "name": "alora-website",
   "compatibility_date": "2026-10-06",
   "workers_dev": true,
   // No per-version preview URLs: each would be one more public copy.
