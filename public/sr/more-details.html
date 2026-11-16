@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="sr-Latn">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Više detalja: obilazak Alore ekran po ekran</title>
+    <meta name="description" content="Kratka šetnja kroz aplikaciju Alora, ekran po ekran: beleženje, zapažanja, tvoje zdravlje, pregled kod lekara i kartica „Ne mogu da čekam“." />
+    <meta name="theme-color" content="#F3F0FD" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#06090B" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/assets/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+    <link rel="alternate" hreflang="en" href="/more-details" />
+    <link rel="alternate" hreflang="sr-Latn" href="/sr/more-details" />
+    <link rel="alternate" hreflang="nb" href="/no/more-details" />
+    <link rel="alternate" hreflang="x-default" href="/more-details" />
+    <meta property="og:title" content="Više detalja: obilazak Alore ekran po ekran" />
+    <meta property="og:description" content="Kratka šetnja kroz aplikaciju Alora, ekran po ekran: beleženje, zapažanja, tvoje zdravlje, pregled kod lekara i kartica „Ne mogu da čekam“." />
+    <meta property="og:image" content="/assets/icon-512.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="sr_RS" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/tour.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Preskoči na sadržaj</a>
+
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="/sr/" aria-label="Alora početna">
+          <img src="/assets/alora-mark.svg" alt="" width="30" height="30" />
+          <span class="brand-name"><strong>alora</strong><span>IBD companion</span></span>
+        </a>
+        <nav class="site-nav" aria-label="Glavna navigacija">
+          <a class="optional" href="/sr/#features">Mogućnosti</a>
+          <a class="tour-link" href="/sr/more-details" aria-current="page">Više detalja…</a>
+          <a class="optional" href="/sr/#privacy">Privatnost</a>
+          <a class="optional" href="/sr/support">Podrška</a>
+          <span class="lang-switch" role="group" aria-label="Jezik">
+            <a href="/more-details" hreflang="en" lang="en" aria-current="false" aria-label="English">EN</a>
+            <a href="/sr/more-details" hreflang="sr-Latn" lang="sr-Latn" aria-current="true" aria-label="Srpski (latinica)">SR</a>
+            <a href="/no/more-details" hreflang="nb" lang="nb" aria-current="false" aria-label="Norsk (bokmål)">NO</a>
+          </span>
+        </nav>
+      </div>
+    </header>
+
+    <div class="progress" aria-hidden="true"></div>
+    <main id="main">
+      <section class="tour-hero" aria-labelledby="tour-title">
+        <div class="wrap">
+          <p class="print-only eyebrow">Alora · obilazak ekran po ekran</p>
+          <span class="eyebrow no-print">Obilazak ekran po ekran</span>
+          <h1 id="tour-title">Alora, ekran po ekran</h1>
+          <p class="lead">Kratka šetnja kroz aplikaciju: gde se šta nalazi, šta svaki ekran radi za tebe i poneki savet usput. Svi ekrani su iz same aplikacije, sa demo podacima.</p>
+          <div class="tour-actions">
+            <button class="btn" type="button" data-print hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M6 14h12v7H6z"/></svg>Sačuvaj kao PDF</button>
+            <a class="btn ghost" href="/sr/">Nazad na početnu stranu</a>
+          </div>
+          <ol class="chapter-chips">
+            <li><a href="#ch-log"><b>01</b>Beleži svoj dan</a></li>
+            <li><a href="#ch-understand"><b>02</b>Šta ti govore tvoji dani</a></li>
+            <li><a href="#ch-health"><b>03</b>Tvoje zdravlje na jednom mestu</a></li>
+            <li><a href="#ch-visit"><b>04</b>Pripremi se za pregled</a></li>
+            <li><a href="#ch-out"><b>05</b>Van kuće</a></li>
+            <li><a href="#ch-yours"><b>06</b>Prilagodi je sebi</a></li>
+          </ol>
+        </div>
+      </section>
+
+      <div class="wrap tour">
+        <nav class="toc" aria-label="Sadržaj obilaska">
+          <ol>
+            <li><span class="ch">Beleži svoj dan</span><ol>
+              <li><a href="#home">Tvoj dan na prvi pogled</a></li>
+              <li><a href="#launcher">Zabeleži bilo šta u dva dodira</a></li>
+              <li><a href="#stool">Stolica, bez ustručavanja</a></li>
+              <li><a href="#symptom">Zabeleži kako se osećaš</a></li>
+              <li><a href="#meal">Obroci, fotografijom ili ručno</a></li>
+              <li><a href="#checkin">Dnevna provera</a></li>
+            </ol></li>
+            <li><span class="ch">Šta ti govore tvoji dani</span><ol>
+              <li><a href="#insights">Šta je Alora primetila</a></li>
+              <li><a href="#analyze">Tvoji dani, uporedo</a></li>
+              <li><a href="#labs">Nalazi kroz vreme</a></li>
+              <li><a href="#explore">Nova istraživanja, izabrana za tebe</a></li>
+            </ol></li>
+            <li><span class="ch">Tvoje zdravlje na jednom mestu</span><ol>
+              <li><a href="#health">Sve o tvojoj bolesti</a></li>
+              <li><a href="#history">Tvoja istorija bolesti</a></li>
+              <li><a href="#therapy">Tvoja terapija i raspored</a></li>
+              <li><a href="#pillpal">Prati zalihu svojih lekova</a></li>
+            </ol></li>
+            <li><span class="ch">Pripremi se za pregled</span><ol>
+              <li><a href="#docs">Tvoji dokumenti</a></li>
+              <li><a href="#report">Izveštaj za lekara</a></li>
+            </ol></li>
+            <li><span class="ch">Van kuće</span><ol>
+              <li><a href="#card">Kartica „Ne mogu da čekam“</a></li>
+              <li><a href="#toilets">Toaleti u blizini</a></li>
+            </ol></li>
+            <li><span class="ch">Prilagodi je sebi</span><ol>
+              <li><a href="#settings">Aplikacija po tvojoj meri</a></li>
+            </ol></li>
+          </ol>
+        </nav>
+        <div class="steps">
+          <div class="chapter" id="ch-log">
+            <header class="chapter-head">
+              <span class="eyebrow">01 / 06</span>
+              <h2>Beleži svoj dan</h2>
+              <p>Nekoliko dodira, u bilo koje doba dana. Sve počinje dugmetom A u sredini trake sa karticama.</p>
+            </header>
+            <section class="step" id="home" aria-labelledby="home-title" data-kind="scroll">
+              <div class="shot"><div class="phone"><div class="screen-stack"><div class="win"><img class="top" src="/assets/screens/sr/home.webp" alt="Tvoj dan na prvi pogled: Kartica Početak" width="603" height="1311" loading="lazy" decoding="async" /></div><div class="scroll-layer" style="--end: -41.634%; --start: 0.8s; --stick-at: 3.27s; --pin: 14.5%"><div class="sw"><img class="strip" src="/assets/screens/sr/home-strip.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="cap" src="/assets/screens/sr/home.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><img class="pin" src="/assets/screens/sr/home-end.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><img class="dock" src="/assets/screens/sr/home-end.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /></div></div></div></div>
+              <div class="copy">
+                <p class="where"><span class="step-num">01</span>Kartica Početak</p>
+                <h3 id="home-title">Tvoj dan na prvi pogled</h3>
+                <p>Početak se otvara na današnjem danu: traka sa datumima, tvoj Alora skor i kako se dan poredi sa uobičajenim, plan za dan i sve što je zabeleženo, redom.</p>
+                <ul><li>Dodirni dan u traci da pogledaš unazad.</li><li>Krug skora pokazuje koliko signala već ima.</li><li>Svaki unos u dnevnom toku otvara se za brzu izmenu.</li></ul>
+              </div>
+            </section>
+            <section class="step" id="launcher" aria-labelledby="launcher-title" data-kind="sheet">
+              <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/sr/home.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/sr/launcher.webp" alt="Zabeleži bilo šta u dva dodira: Početak → dugme A" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="bar" src="/assets/screens/sr/launcher.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><span class="tap" style="left: 50%; top: 92%"></span></div></div></div>
+              <div class="copy">
+                <p class="where"><span class="step-num">02</span>Početak → dugme A</p>
+                <h3 id="launcher-title">Zabeleži bilo šta u dva dodira</h3>
+                <p>Dugme A otvara meni za unos. Dva brza dugmeta na vrhu jednim dodirom broje stolicu ili čašu vode; pločice ispod otvaraju ceo unos.</p>
+                <ul><li>Stolica, simptom, obrok, lek, aktivnost, voda i beleške.</li><li>Hitni odlasci, epizode subokluzije, nalazi i procedure.</li><li>I kartica i skeniranje obroka su na jedan dodir.</li></ul>
+                <p class="tip"><strong>Savet</strong> Oznake pokazuju šta je danas već zabeleženo, pa ništa ne brojiš dvaput.</p>
+              </div>
+            </section>
+            <section class="step" id="stool" aria-labelledby="stool-title" data-kind="tray">
+              <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/sr/launcher.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/sr/stool.webp" alt="Stolica, bez ustručavanja: Meni → Stolica" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="bar" src="/assets/screens/sr/stool.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><span class="tap" style="left: 83%; top: 58%"></span></div></div></div>
+              <div class="copy">
+                <p class="where"><span class="step-num">03</span>Meni → Stolica</p>
+                <h3 id="stool-title">Stolica, bez ustručavanja</h3>
+                <p>Izaberi Bristol tip sa slike, zatim jačinu nagona i prisustvo krvi. Još sedam detalja čeka iza „Prikaži još 7“ za dane kada ih želiš.</p>
+                <ul><li>Svaki Bristol tip ima i pun opis.</li><li>Vreme je unapred postavljeno na sada i lako se menja.</li><li>Alora koristi unos za skor i obrasce.</li></ul>
+              </div>
+            </section>
+            <section class="step" id="symptom" aria-labelledby="symptom-title" data-kind="tray">
+              <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/sr/launcher.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/sr/symptom.webp" alt="Zabeleži kako se osećaš: Meni → Simptom" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="bar" src="/assets/screens/sr/symptom.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><span class="tap" style="left: 16%; top: 67%"></span></div></div></div>
+              <div class="copy">
+                <p class="where"><span class="step-num">04</span>Meni → Simptom</p>
+                <h3 id="symptom-title">Zabeleži kako se osećaš</h3>
+                <p>Dodirni svaki simptom koji odgovara, od grčeva do bola u zglobovima, podesi jačinu i dodaj napomenu ako želiš nešto da zapamtiš.</p>
+                <ul><li>Simptomi oko anusa imaju svoje oznake.</li><li>Jedan unos može da ima više simptoma.</li><li>Napomena ostaje uz unos i ide u izveštaj.</li></ul>
+              </div>
+            </section>
+            <section class="step" id="meal" aria-labelledby="meal-title" data-kind="tray">
+              <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/sr/launcher.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/sr/meal.webp" alt="Obroci, fotografijom ili ručno: Meni → Obrok" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="bar" src="/assets/screens/sr/meal.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><span class="tap" style="left: 83%; top: 67%"></span></div></div></div>
+              <div class="copy">
+                <p class="where"><span class="step-num">05</span>Meni → Obrok</p>
+                <h3 id="meal-title">Obroci, fotografijom ili ručno</h3>
+                <p>Izaberi tip obroka, pa skeniraj tanjir ili ručno dodaj jela. Posle nekoliko nedelja Alora povezuje ono što jedeš sa danima posle toga.</p>
+                <ul><li>Skeniraj obrok i neka kamera pročita tvoj tanjir.</li><li>Biraj iz kataloga hrane za tvoju zemlju.</li><li>Nekoliko reči opisa je dovoljno kad nemaš vremena.</li></ul>
+              </div>
+            </section>
+            <section class="step" id="checkin" aria-labelledby="checkin-title" data-kind="tray">
+              <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/sr/launcher.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/sr/checkin.webp" alt="Dnevna provera: Meni → Provera" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="bar" src="/assets/screens/sr/checkin.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><span class="tap" style="left: 16%; top: 58%"></span></div></div></div>
+              <div class="copy">
+                <p class="where"><span class="step-num">06</span>Meni → Provera</p>
+                <h3 id="checkin-title">Dnevna provera</h3>
+                <p>Jednom dnevno reci kako si: opšte stanje, bol, umor, groznica, san. Alora je unapred popunjava tvojim uobičajenim vrednostima, pa je većinom dana dovoljno da potvrdiš.</p>
+                <ul><li>Klizači za bol, umor i san.</li><li>Unapred popunjeno prema tome kakav je tvoj uobičajeni dan.</li><li>Ulazi u klinički deo tvog Alora skora.</li></ul>
+              </div>
+            </section>
+          </div>
+          <div class="chapter" id="ch-understand">
+            <header class="chapter-head">
+              <span class="eyebrow">02 / 06</span>
+              <h2>Šta ti govore tvoji dani</h2>
+              <p>Alora čita tvoj dnevnik i pokazuje šta ide uz tvoje bolje, a šta uz teže dane.</p>
+            </header>
+            <section class="step" id="insights" aria-labelledby="insights-title" data-kind="tab">
+              <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/sr/home.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/sr/insights.webp" alt="Šta je Alora primetila: Kartica Zapažanja" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="bar" src="/assets/screens/sr/insights.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><span class="tap" style="left: 30%; top: 94%"></span></div></div></div>
+              <div class="copy">
+                <p class="where"><span class="step-num">07</span>Kartica Zapažanja</p>
+                <h3 id="insights-title">Šta je Alora primetila</h3>
+                <p>Alora traži u tvojim unosima obrasce koje vredi znati i prikazuje svaki kao karticu, sa time koliko se često dešavao i šta ga je pratilo.</p>
+                <ul><li>Svaka kartica pokazuje dane na kojima se obrazac zasniva.</li><li>Povezani obrasci se skupljaju ispod glavnog.</li><li>Neke kartice predlažu da to pomeneš na sledećem pregledu.</li></ul>
+                <p class="tip"><strong>Savet</strong> Alora opisuje ono što tvoj dnevnik pokazuje. Ne postavlja dijagnozu.</p>
+              </div>
+            </section>
+            <section class="step" id="analyze" aria-labelledby="analyze-title" data-kind="tab">
+              <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/sr/insights.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/sr/analyze.webp" alt="Tvoji dani, uporedo: Zapažanja → Analiza" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="bar" src="/assets/screens/sr/analyze.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><span class="tap" style="left: 50%; top: 25%"></span></div></div></div>
+              <div class="copy">
+                <p class="where"><span class="step-num">08</span>Zapažanja → Analiza</p>
+                <h3 id="analyze-title">Tvoji dani, uporedo</h3>
+                <p>Analiza poredi tvoje nedavne dane sa uobičajenim ritmom: koliko je bilo bliže, u ritmu ili dalje od njega, kakvi su bili i kako se kretao tvoj Alora skor.</p>
+                <ul><li>Raspon od jedne nedelje do šest meseci.</li><li>Tvoj uobičajeni obrazac nacrtan pored skora.</li><li>Zatvor i druge epizode označeni na grafikonu.</li></ul>
+              </div>
+            </section>
+            <section class="step" id="labs" aria-labelledby="labs-title" data-kind="scroll">
+              <div class="shot"><div class="phone"><div class="screen-stack"><div class="win"><img class="top" src="/assets/screens/sr/labs.webp" alt="Nalazi kroz vreme: Zapažanja → Analiza, niže" width="603" height="1311" loading="lazy" decoding="async" /></div><div class="scroll-layer" style="--end: -76.247%; --start: 0.8s; --stick-at: 2.02s; --pin: 13%"><div class="sw"><img class="strip" src="/assets/screens/sr/labs-strip.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="cap" src="/assets/screens/sr/analyze.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><img class="pin" src="/assets/screens/sr/labs.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><img class="dock" src="/assets/screens/sr/labs.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /></div></div></div></div>
+              <div class="copy">
+                <p class="where"><span class="step-num">09</span>Zapažanja → Analiza, niže</p>
+                <h3 id="labs-title">Nalazi kroz vreme</h3>
+                <p>Kalprotektin, CRP, feritin i vitamin D na jednoj vremenskoj liniji, sa osenčenim referentnim opsegom i označenim dozama biološke terapije, da vidiš šta se promenilo posle doze.</p>
+                <ul><li>Vrednosti stižu sa fotografije nalaza.</li><li>Opseg, granična i visoka vrednost na prvi pogled.</li><li>Jedno merenje ti kaže kada da zabeležiš sledeće.</li></ul>
+              </div>
+            </section>
+            <section class="step" id="explore" aria-labelledby="explore-title" data-kind="tab">
+              <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/sr/insights.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/sr/explore.webp" alt="Nova istraživanja, izabrana za tebe: Zapažanja → Istraži" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="bar" src="/assets/screens/sr/explore.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><span class="tap" style="left: 80%; top: 25%"></span></div></div></div>
+              <div class="copy">
+                <p class="where"><span class="step-num">10</span>Zapažanja → Istraži</p>
+                <h3 id="explore-title">Nova istraživanja, izabrana za tebe</h3>
+                <p>Svakog dana Alora bira članke o životu sa IBD-om iz pouzdanih izvora, od smernica do načina života, da pratiš novosti i doneseš pitanja lekaru.</p>
+                <ul><li>Filtriraj po smernicama, sastojcima ili načinu života.</li><li>Zvanični izvori su označeni.</li><li>Svaki članak vodi do svog izvora.</li></ul>
+              </div>
+            </section>
+          </div>
+          <div class="chapter" id="ch-health">
+            <header class="chapter-head">
+              <span class="eyebrow">03 / 06</span>
+              <h2>Tvoje zdravlje na jednom mestu</h2>
+              <p>Dijagnoze, istorija bolesti, terapija i zaliha lekova, zajedno i spremno za lekara.</p>
+            </header>
+            <section class="step" id="health" aria-labelledby="health-title" data-kind="scroll">
+              <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/sr/home.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/sr/health.webp" alt="Sve o tvojoj bolesti: Kartica Zdravlje" width="603" height="1311" loading="lazy" decoding="async" /></div><div class="scroll-layer" style="--end: -39.27%; --start: 1.8s"><div class="sw"><img class="strip" src="/assets/screens/sr/health-strip.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="cap" src="/assets/screens/sr/health.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><img class="dock" src="/assets/screens/sr/health-end.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /></div><span class="tap" style="left: 70%; top: 94%"></span></div></div></div>
+              <div class="copy">
+                <p class="where"><span class="step-num">11</span>Kartica Zdravlje</p>
+                <h3 id="health-title">Sve o tvojoj bolesti</h3>
+                <p>Kartica Zdravlje čuva ono što se ne menja svakog dana: dijagnozu, istoriju bolesti, životnu fazu, uobičajene vrednosti, terapiju i dokumente.</p>
+                <ul><li>Svaki red pokazuje šta je već upisano.</li><li>Demo planovi su označeni, da znaš šta da zameniš.</li><li>I kartica „Ne mogu da čekam“ je ovde.</li></ul>
+              </div>
+            </section>
+            <section class="step" id="history" aria-labelledby="history-title" data-kind="tray">
+              <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/sr/health.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/sr/history.webp" alt="Tvoja istorija bolesti: Zdravlje → Istorija bolesti" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="bar" src="/assets/screens/sr/history.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><span class="tap" style="left: 50%; top: 40%"></span></div></div></div>
+              <div class="copy">
+                <p class="where"><span class="step-num">12</span>Zdravlje → Istorija bolesti</p>
+                <h3 id="history-title">Tvoja istorija bolesti</h3>
+                <p>Alergije, ranije terapije, operacije, boravci u bolnici, druga stanja i komplikacije, svako sa svojim dugmetom za dodavanje. Sve to ide u izveštaj za lekara.</p>
+                <ul><li>Ranije terapije čuvaju datume i razlog prekida.</li><li>Komplikacije beleže mesto, stanje i lečenje.</li><li>Faktori rizika, poput pušenja, imaju svoju karticu.</li></ul>
+              </div>
+            </section>
+            <section class="step" id="therapy" aria-labelledby="therapy-title" data-kind="tray">
+              <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/sr/health.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/sr/therapy.webp" alt="Tvoja terapija i raspored: Zdravlje → Terapija i raspored" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="bar" src="/assets/screens/sr/therapy.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><span class="tap" style="left: 50%; top: 77%"></span></div></div></div>
+              <div class="copy">
+                <p class="where"><span class="step-num">13</span>Zdravlje → Terapija i raspored</p>
+                <h3 id="therapy-title">Tvoja terapija i raspored</h3>
+                <p>Lekovi, aktivnosti, nalazi i procedure u jednom rasporedu, prvo današnji. Alora te podseća i prati šta sledi.</p>
+                <ul><li>Filtriraj po lekovima, nalazima ili aktivnostima.</li><li>Svaki plan pokazuje vreme i koliko se često ponavlja.</li><li>Zaliha ti kaže koliko će lek trajati.</li></ul>
+              </div>
+            </section>
+            <section class="step" id="pillpal" aria-labelledby="pillpal-title" data-kind="tray">
+              <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/sr/health.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/sr/pillpal.webp" alt="Prati zalihu svojih lekova: Zdravlje → PillPal" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="bar" src="/assets/screens/sr/pillpal.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><span class="tap" style="left: 50%; top: 87%"></span></div></div></div>
+              <div class="copy">
+                <p class="where"><span class="step-num">14</span>Zdravlje → PillPal</p>
+                <h3 id="pillpal-title">Prati zalihu svojih lekova</h3>
+                <p>PillPal broji koliko imaš svakog leka i koliko će trajati, da ga dopuniš pre nego što ti ponestane.</p>
+                <ul><li>Preostali dani za svaki lek.</li><li>Planovi bez zalihe su posebno navedeni.</li><li>Dodaj lek u jednom koraku.</li></ul>
+              </div>
+            </section>
+          </div>
+          <div class="chapter" id="ch-visit">
+            <header class="chapter-head">
+              <span class="eyebrow">04 / 06</span>
+              <h2>Pripremi se za pregled</h2>
+              <p>Sve što lekar treba da vidi, na nekoliko strana koje možeš da pošalješ ili pokažeš.</p>
+            </header>
+            <section class="step" id="docs" aria-labelledby="docs-title" data-kind="still">
+              <div class="shot"><div class="phone"><div class="screen-stack"><div class="win"><img class="top" src="/assets/screens/sr/docs.webp" alt="Tvoji dokumenti: Zdravlje → Moji dokumenti" width="603" height="1311" loading="lazy" decoding="async" /></div></div></div></div>
+              <div class="copy">
+                <p class="where"><span class="step-num">15</span>Zdravlje → Moji dokumenti</p>
+                <h3 id="docs-title">Tvoji dokumenti</h3>
+                <p>Izveštaji za lekara i sve što dodaš kamerom, iz galerije ili kao fajl, na jednoj listi iz koje možeš da deliš.</p>
+                <ul><li>Dodaj snimak, fotografiju ili PDF.</li><li>Podeli bilo koji dokument iz njegovog reda.</li><li>Izveštaji čuvaju period koji pokrivaju.</li></ul>
+              </div>
+            </section>
+            <section class="step" id="report" aria-labelledby="report-title" data-kind="tray" style="--sheet: 6.4%">
+              <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/sr/docs.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/sr/report.webp" alt="Izveštaj za lekara: Moji dokumenti → izveštaj" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="bar" src="/assets/screens/sr/report.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><span class="tap" style="left: 50%; top: 30%"></span></div></div></div>
+              <div class="copy">
+                <p class="where"><span class="step-num">16</span>Moji dokumenti → izveštaj</p>
+                <h3 id="report-title">Izveštaj za lekara</h3>
+                <p>Nekoliko strana sa onim što je važno od prošlog pregleda: Alora skor, pražnjenja, dani sa simptomima, redovnost terapije, istorija bolesti i kretanje nalaza.</p>
+                <ul><li>Pošalji ga kao PDF ili ga pokaži na telefonu.</li><li>Link koji deliš šifruje se na tvom telefonu.</li><li>Link prestaje da radi kada ti tako odlučiš.</li></ul>
+              </div>
+            </section>
+          </div>
+          <div class="chapter" id="ch-out">
+            <header class="chapter-head">
+              <span class="eyebrow">05 / 06</span>
+              <h2>Van kuće</h2>
+              <p>Kada ne možeš da čekaš, Alora govori umesto tebe i pronalazi najbliži toalet.</p>
+            </header>
+            <section class="step" id="card" aria-labelledby="card-title" data-kind="tray" style="--sheet: 6.4%">
+              <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/sr/launcher.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/sr/card.webp" alt="Kartica „Ne mogu da čekam“: Meni → Kartica" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="bar" src="/assets/screens/sr/card.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><span class="tap" style="left: 38%; top: 58%"></span></div></div></div>
+              <div class="copy">
+                <p class="where"><span class="step-num">17</span>Meni → Kartica</p>
+                <h3 id="card-title">Kartica „Ne mogu da čekam“</h3>
+                <p>Kartica koja moli da koristiš toalet, da ne moraš da objašnjavaš. Pokaži je preko celog ekrana, na jeziku zemlje u kojoj si.</p>
+                <ul><li>Radi i bez interneta.</li><li>Izaberi jezik kartice.</li><li>Dijagnozu na njoj prikaži samo ako želiš.</li></ul>
+                <p class="tip"><strong>Savet</strong> Posle dodirni „Zabeleži ovaj odlazak“ da hitan odlazak ostane u dnevniku.</p>
+              </div>
+            </section>
+            <section class="step" id="toilets" aria-labelledby="toilets-title" data-kind="tray" style="--sheet: 8.4%">
+              <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/sr/card.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/sr/toilets.webp" alt="Toaleti u blizini: Kartica → Pronađi toalet" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="bar" src="/assets/screens/sr/toilets.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><span class="tap" style="left: 50%; top: 86%"></span></div></div></div>
+              <div class="copy">
+                <p class="where"><span class="step-num">18</span>Kartica → Pronađi toalet</p>
+                <h3 id="toilets-title">Toaleti u blizini</h3>
+                <p>Najbliži toaleti oko tebe, sa onim što svaki nudi: besplatno, pristupačno, samo za goste, sto za presvlačenje.</p>
+                <ul><li>Poređani po udaljenosti.</li><li>Nedostaje toalet? Dodaj ga.</li><li>Otvori bilo koji u aplikaciji za mape.</li></ul>
+              </div>
+            </section>
+          </div>
+          <div class="chapter" id="ch-yours">
+            <header class="chapter-head">
+              <span class="eyebrow">06 / 06</span>
+              <h2>Prilagodi je sebi</h2>
+              <p>Jezik, izgled, obaveštenja i tvoj nalog.</p>
+            </header>
+            <section class="step" id="settings" aria-labelledby="settings-title" data-kind="tab">
+              <div class="shot"><div class="phone"><div class="screen-stack"><img class="base" src="/assets/screens/sr/home.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><div class="win"><img class="top" src="/assets/screens/sr/settings.webp" alt="Aplikacija po tvojoj meri: Kartica Podešavanja" width="603" height="1311" loading="lazy" decoding="async" /></div><img class="bar" src="/assets/screens/sr/settings.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><img class="theme t0" src="/assets/screens/sr/settings-soloppgang.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><img class="theme t1" src="/assets/screens/sr/settings-nordlis.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><img class="theme t2" src="/assets/screens/sr/settings-skoug.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><img class="theme t3" src="/assets/screens/sr/settings-dark.webp" alt="" width="603" height="1311" loading="lazy" decoding="async" /><span class="tap" style="left: 90%; top: 94%"></span></div></div></div>
+              <div class="copy">
+                <p class="where"><span class="step-num">19</span>Kartica Podešavanja</p>
+                <h3 id="settings-title">Aplikacija po tvojoj meri</h3>
+                <p>Tvoj nalog, jezik, izgled, obaveštenja i povezivanja. Demo podaci se uklanjaju u jednom koraku kada počneš da beležiš svoje.</p>
+                <ul><li>Deset jezika, uključujući srpski na latinici i ćirilici.</li><li>Svetla, tamna ili automatska tema.</li><li>Izaberi koje nežne podsetnike Alora šalje.</li></ul>
+                <p class="tip"><strong>Savet</strong> Alora prati podešavanje većeg teksta na telefonu i radi sa VoiceOverom.</p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+
+      <section class="wrap tour-end" aria-labelledby="end-title">
+        <h2 id="end-title">To je Alora</h2>
+        <p>Uskoro za iPhone i Android. Do tada sačuvaj ovaj obilazak kao PDF i podeli ga sa onima koji ti pomažu.</p>
+        <p class="print-only">Ekrani prikazuju demo podatke. Alora ne postavlja dijagnozu: sve što primeti vredi proveriti sa lekarom.</p>
+        <div class="tour-actions">
+          <button class="btn" type="button" data-print hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M6 14h12v7H6z"/></svg>Sačuvaj kao PDF</button>
+          <a class="btn ghost" href="#main"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>Nazad na vrh</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <span>© 2026 Alora</span>
+        <nav aria-label="Pravne informacije i podrška">
+          <a href="/privacy" hreflang="en">Privatnost (na engleskom)</a>
+          <a href="/terms" hreflang="en">Uslovi korišćenja (na engleskom)</a>
+          <a href="/sr/support">Podrška</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

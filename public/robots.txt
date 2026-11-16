@@ -1,0 +1,5 @@
+# Pre-launch: nothing is indexed yet. At launch, replace with:
+#   User-agent: *
+#   Allow: /
+User-agent: *
+Disallow: /

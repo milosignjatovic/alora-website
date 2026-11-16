@@ -1,0 +1,13 @@
+{
+  "name": "alora-website",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Landing page, legal pages and support for the Alora app.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "4.145.0"
+  }
+}
