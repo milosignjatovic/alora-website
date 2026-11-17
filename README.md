@@ -3,11 +3,13 @@
 The landing page for the Alora app, a screen-by-screen tour (`/more-details`),
 its privacy policy, terms of use and support page. Plain static HTML and CSS in
 `public/`: no build step and no third-party requests (fonts, icons and
-screenshots are served from here). One small first-party script,
-`public/tour.js`, enhances the tour: the "Save as PDF" button, replaying each
-screen's animation as it scrolls into view, and highlighting the contents.
-Without it the tour still reads and prints; the CSP allows `script-src 'self'`
-and nothing else.
+screenshots are served from here). Two small first-party scripts:
+`public/tour.js` enhances the tour (the "Save as PDF" button, replaying each
+screen's animation as it scrolls into view, and highlighting the contents), and
+`public/theme.js`, loaded in every page's `<head>` so a stored choice applies
+before the first paint, runs the light/dark switch in the header. Without them
+the tour still reads and prints and the switch stays hidden; the CSP allows
+`script-src 'self'` and nothing else.
 
 ## Languages
 
@@ -75,7 +77,12 @@ Colours and type mirror the app's Alora theme
 `#158F8C`, the logo gradient's `#438FA4`, the five-stop screen wash, and Inter
 (SIL Open Font License, `public/fonts/OFL.txt`). The mark in
 `public/assets/alora-mark.svg` is the app's `AloraLogoMark` path with its
-gradient. Light and dark follow the visitor's system setting.
+gradient. Light and dark follow the visitor's system setting until the visitor
+picks one with the header switch (Match system → Light → Dark, wording from the
+app's Appearance screen). The choice is kept in `localStorage` as
+`alora-theme` and sets `data-theme` on `<html>`; the dark tokens in
+`styles.css` apply under `[data-theme='dark']`, or under the system setting
+unless `[data-theme='light']`.
 
 ## Before launch
 
